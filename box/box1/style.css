@@ -180,6 +180,10 @@
 }
 .rap {
   display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 .minibox {
   flex: 1;
@@ -950,6 +954,10 @@
 }
 .suns1 {
   display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 .suns22 {
   display: block;
@@ -960,6 +968,10 @@
   }
   .suns1 {
     display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
   }
   .suns22 {
     display: block;
@@ -1852,6 +1864,10 @@
   }
   .duu {
     display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
   }
   .rap {
     display: none;
@@ -2689,6 +2705,10 @@
     font-size: 30px;
     color: #1d1d1f;
     font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
   }
   .two3 {
     font-size: 18px;
@@ -2786,6 +2806,10 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
   }
   .rap {
     display: none;
@@ -2828,6 +2852,10 @@
   }
   .suns {
     display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
   }
   .suns22 {
     display: none;
