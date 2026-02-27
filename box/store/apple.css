@@ -537,6 +537,7 @@ span {
   background-color: #ffffff;
 }
 .card44444 {
+  display: flex;
   width: 480px;
   height: 500px;
   background-image: url(./a960f7eefe8796ce51144b229909100094a59989.jpg);
@@ -545,7 +546,6 @@ span {
   object-position: center;
   background-position: center;
   position: relative;
-  background-color: #ffffff;
 }
 /* .card55555 {
   width: 480px;
@@ -850,7 +850,7 @@ span {
   gap: 10px;
   position: absolute;
   top: 30px;
-  left: 30px;
+  left: 60px;
   color: #ffffff;
 }
 .card55555 {
@@ -864,4 +864,27 @@ span {
   bottom: 40px;
   display: flex;
   gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .card,
+  .hairtsag,
+  .aav,
+  .ochir {
+    width: 48%; /* 2 ширхэг card хажуу тийшээ */
+  }
+}
+
+@media (max-width: 768px) {
+  .card,
+  .hairtsag,
+  .aav,
+  .ochir {
+    width: 90%; /* утас дээр нэг column */
+  }
+
+  .flex-wrap-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
